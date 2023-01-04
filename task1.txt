@@ -1,0 +1,167 @@
+OPERATORS IN C
+
+Operators
+An operator is a symbol that is used to perform task.
+
+Type of operators 
+
+      •	Arithmetic operators
+      •	Logical operators
+      •	Relational operators
+      •	Shift operators
+      •	Assignment operators
+      •	Bitwise operators
+      •	Conditional operators
+
+1) Arithmetic operators
+
+      An arithmetic operator performs mathematical operations such as addition, subtraction, multiplication, division,increment,decrement,modulous.
+ 
++ Used to add values
+    Eg: A +B
+- Subtracts one value from another
+    Eg: A – B
+* Multiplies two values	
+    Eg: A * B
+/ Divides one value by another	
+    Eg: A / B
+% Returns the division remainder	
+    Eg: A % B
+++ Increases the value of a variable by 1	
+    Eg: ++A
+-- Decreases the value of a variable by 1	
+    Eg: --A
+
+2) Logical operators
+
+Logical  operators are used to determine the logic between variable and value.
+
+Logical operators are logical and, logical or, logical not.
+
+&& Logical and	returns true if both statements are true
+
+   Eg: X < 5 && X < 10
+
+|| Logical or	returns true if one of the statements is true	
+   
+   Eg:x < 5 || x < 4
+
+! Logical not	reverse the result, returns false if the result is true
+
+   Eg:!(x < 5 && x < 10)	
+
+
+3)Relational operators
+
+The relational operators  check relationship between two operands.
+The relation happens to be true, then it returns  1. But in case this relation turns out to be false, then it returns 0.
+
+== Equal to
+ 
+  Eg: A == B
+
+!= Not equal 
+  
+  Eg:A != B
+
+> Greater than
+  Eg: A > G
+
+< Less than
+  Eg: A < B
+
+>= Greater than or equal to
+  Eg: A >= B
+
+<= Less than or equal to
+  Eg: A <= B
+
+
+4)Conditional operators
+
+The conditional operator is also known as a ternary operator.A conditional operator works on three operands.
+A conditional statements are the decision making statements which depends  up on the output of the expression.
+
+syntax:
+      Expression1? expression2: expression3;  
+  
+
+    .Expression1 is a boolean condition that can be either true or false
+    .If the expression1 results into a true value, then the expression2 will execute.     
+    .The expression2 is said to be true only when it returns a non-zero value.
+    .If the expression1 returns false value then the expression3 will execute.
+    .The expression3 is said to be false only when it returns zero value.
+
+5)Assignment operator
+   
+An assignment operation assigns the value of the right-hand operand to the storage location named by the left-hand operand.
+  
+
+=    x =5             x = 5	assign 5 to the variable x
++=   X += 3           X =X+3    plus and assign operator
+-=   X -= 3           X =X-3    subtract and assign operator
+*=   x *= 3	      X =X*3    multiple and assign operator
+/=   X /= 3           X =X/3    divide and assign operator
+%=   X %= 3	      X =X%3	modulus and assign operator
+
+
+6)Bitwise operators
+     Used to perform data at bit level
+
+Bitwise AND
+
+eg:a=6  b=4
+   a = 0110  b = 0100  
+    a&b=0100
+
+Bitwise OR
+
+eg: a=23 b=10
+   a = 0001 0111  
+   b = 0000 1010  
+   a|b = 0001 1111  
+
+
+Bitwise compliment
+
+eg:a=8
+   a=1000
+   result=0111
+   
+
+7)Shift operators
+
+It used to shift binary bits either in the left direction or in the right direction
+
+    Left shift operator
+ 
+syntax:
+
+var_name << no_of_position  
+
+   Right shift operator
+
+syntax:
+  
+var_name >> no_of_position  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 		
+
+
+
+
+ 
+
